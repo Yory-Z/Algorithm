@@ -35,6 +35,8 @@ private:
         ListNode* fast = head;
         ListNode* slow = head;
 
+        // check if the linked list have cycle or not
+        // and let the two pointers move into the cycle
         while (fast != nullptr && slow != nullptr) {
             slow = slow->next;
             for (int i = 0; i < 3; ++i) {
@@ -52,7 +54,7 @@ private:
             return nullptr;
         }
 
-        //has cycle
+        //has cycle, calculate the sum of nodes in the cycle
         int cycleNum = 1;
         fast = fast->next;
         while (fast != slow) {
