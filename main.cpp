@@ -1,6 +1,5 @@
 
-#include "niuke/CowRoad.h"
-#include <ctime>
+#include "array/FindTheNTh.h"
 
 void test();
 
@@ -16,10 +15,8 @@ int main(){
 }
 
 void test() {
-/*    Knapsack01Dynamic test;
-    test.test();*/
 
-    CowRoad test;
+    FindTheNTh test;
     test.test();
 }
 
