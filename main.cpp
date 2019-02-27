@@ -1,5 +1,5 @@
 
-#include "linked/LinkedListCycleII.h"
+#include "array/PlusOne.h"
 
 void test();
 
@@ -16,7 +16,7 @@ int main(){
 
 void test() {
 
-    LinkedListCycleII test;
+    PlusOne test;
     test.test();
 }
 
