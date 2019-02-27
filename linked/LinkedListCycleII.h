@@ -14,11 +14,11 @@ using namespace LinkedListHelper;
 class LinkedListCycleII {
 public:
     void test() {
-/*        vector<int> nums{3,2,0,-4};
-        int pos = -1;*/
+        vector<int> nums{3,2,0,-4};
+        int pos = 1;
 
-        vector<int> nums{1,2};
-        int pos = 0;
+/*        vector<int> nums{1,2};
+        int pos = 0;*/
 
 /*        vector<int> nums{1};
         int pos = -1;*/

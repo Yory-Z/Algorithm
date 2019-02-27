@@ -1,5 +1,5 @@
 
-#include "linked/RemoveNthNodeFromEndOfList.h"
+#include "linked/LinkedListCycleII.h"
 
 void test();
 
@@ -16,7 +16,7 @@ int main(){
 
 void test() {
 
-    RemoveNthNodeFromEndOfList test;
+    LinkedListCycleII test;
     test.test();
 }
 
