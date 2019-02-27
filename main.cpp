@@ -1,5 +1,5 @@
 
-#include "array/FindTheNTh.h"
+#include "linked/RemoveNthNodeFromEndOfList.h"
 
 void test();
 
@@ -16,7 +16,7 @@ int main(){
 
 void test() {
 
-    FindTheNTh test;
+    RemoveNthNodeFromEndOfList test;
     test.test();
 }
 
