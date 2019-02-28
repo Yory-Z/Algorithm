@@ -1,5 +1,5 @@
 
-#include "array/PlusOne.h"
+#include "stringoperation/AddBinary.h"
 
 void test();
 
@@ -16,7 +16,7 @@ int main(){
 
 void test() {
 
-    PlusOne test;
+    AddBinary test;
     test.test();
 }
 
