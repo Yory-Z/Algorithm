@@ -1,10 +1,15 @@
 
-#include "array/LongestSubstringWithoutRepeatingCharacters.h"
+#include "stringoperation/SimplifyPath.h"
 
 void test();
 
 void normalTest() {
-
+    string path = "1231/23432///123/.../.././";
+    string res, tmp;
+    stringstream ss(path);
+    while (getline(ss, tmp, '/')) {
+        cout<<tmp<<endl;
+    }
 }
 
 int main(){
@@ -16,7 +21,7 @@ int main(){
 
 void test() {
 
-    LongestSubstringWithoutRepeatingCharacters test;
+    SimplifyPath test;
     test.test();
 }
 
