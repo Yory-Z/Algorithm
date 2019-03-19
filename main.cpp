@@ -1,5 +1,5 @@
 
-#include "array/SetMatrixZeros.h"
+#include "array/SearchA2DMatrix.h"
 
 void test();
 
@@ -15,7 +15,7 @@ int main(){
 
 void test() {
 
-    SetMatrixZeros test;
+    SearchA2DMatrix test;
     test.test();
 }
 
