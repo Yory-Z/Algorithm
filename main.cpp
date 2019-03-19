@@ -1,15 +1,9 @@
 
-#include "stringoperation/SimplifyPath.h"
+#include "array/SetMatrixZeros.h"
 
 void test();
 
 void normalTest() {
-    string path = "1231/23432///123/.../.././";
-    string res, tmp;
-    stringstream ss(path);
-    while (getline(ss, tmp, '/')) {
-        cout<<tmp<<endl;
-    }
 }
 
 int main(){
@@ -21,7 +15,7 @@ int main(){
 
 void test() {
 
-    SimplifyPath test;
+    SetMatrixZeros test;
     test.test();
 }
 
