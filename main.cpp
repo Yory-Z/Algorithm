@@ -1,5 +1,5 @@
 
-#include "array/SearchA2DMatrix.h"
+#include "array/SortColors.h"
 
 void test();
 
@@ -15,7 +15,7 @@ int main(){
 
 void test() {
 
-    SearchA2DMatrix test;
+    SortColors test;
     test.test();
 }
 
