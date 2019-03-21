@@ -1,5 +1,5 @@
 
-#include "linked/RemoveDuplicatesFromSortedListII.h"
+#include "dynamic/SubsetsDynamic.h"
 
 void test();
 
@@ -15,7 +15,7 @@ int main(){
 
 void test() {
 
-    RemoveDuplicatesFromSortedListII test;
+    SubsetsDynamic test;
     test.test();
 }
 
