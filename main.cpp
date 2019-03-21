@@ -1,5 +1,5 @@
 
-#include "array/RemoveDuplicatesFromSortedArrayII.h"
+#include "linked/RemoveDuplicatesFromSortedListII.h"
 
 void test();
 
@@ -15,7 +15,7 @@ int main(){
 
 void test() {
 
-    RemoveDuplicatesFromSortedArrayII test;
+    RemoveDuplicatesFromSortedListII test;
     test.test();
 }
 

@@ -75,6 +75,16 @@ namespace LinkedListHelper {
         return dummyHead->next;
     }
 
+    ListNode* createLinkedList(vector<int> nums) {
+        ListNode* dummy = new ListNode(-1);
+        ListNode* cur = dummy;
+        for (int i : nums) {
+            cur->next = new ListNode(i);
+            cur = cur->next;
+        }
+        return dummy->next;
+    }
+
 }
 
 #endif //ALGORITHM_LINKEDLISTHEPLER_H
